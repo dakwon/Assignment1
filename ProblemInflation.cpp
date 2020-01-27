@@ -6,8 +6,7 @@ int main() {
   int numYears, i;
   double itemCost;
   double inflationRate;
-  std::cout << std::setprecision(3);
-  //cout.setprecision(3);
+  cout.setprecision(3);
 
   cout << "Enter the price of the item: ";
   cin >> itemCost;
